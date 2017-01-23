@@ -12,7 +12,7 @@ do
 	file_count="$(ls | wc -l)"
 	if [ $file_count -gt 0 ];
 		then
-		FILES=/Users/mac/Desktop/pic_test/*
+		FILES=/Volumes/HSU/iii/Hadoop_1/shell/*
 		for f in $FILES
 		do
 			git add $f
@@ -25,6 +25,6 @@ do
 		  	git remote remove origin
 		done
 	fi;
-	# rm -rf /Users/mac/Desktop/pic_test/*
+	# rm -rf /Volumes/HSU/iii/Hadoop_1/shell/*
 	sleep 3
 done
